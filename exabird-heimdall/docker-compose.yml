@@ -1,0 +1,8 @@
+services:
+  heimdall:
+    image: linuxserver/heimdall:latest
+    ports:
+      - "80/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/Heimdall:/config"
+    restart: unless-stopped

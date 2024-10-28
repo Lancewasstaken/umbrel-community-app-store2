@@ -1,0 +1,8 @@
+services:
+  homer:
+    image: b4bz/homer:latest
+    ports:
+      - "8902:8080/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/Homer/assets:/www/assets"
+    restart: unless-stopped

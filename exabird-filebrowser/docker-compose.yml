@@ -1,0 +1,8 @@
+services:
+  filebrowser:
+    image: 80x86/filebrowser:latest
+    ports:
+      - "8082:8082/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/FileBrowser:/config"
+    restart: unless-stopped

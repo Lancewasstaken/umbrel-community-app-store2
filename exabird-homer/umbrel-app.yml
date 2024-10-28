@@ -1,0 +1,5 @@
+name: homer
+description: A dead simple static Homepage for your server to keep your services on hand, from a simple yaml configuration file.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/homer-dashboard.png
+developer: Umbrel Community
+support: No support URL provided

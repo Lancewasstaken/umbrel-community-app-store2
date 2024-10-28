@@ -1,0 +1,8 @@
+services:
+  flame-dashboard:
+    image: pawelmalak/flame
+    ports:
+      - "5005:5005/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/flame-dashboard:/app/data"
+    restart: unless-stopped

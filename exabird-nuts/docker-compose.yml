@@ -1,0 +1,8 @@
+services:
+  nuts:
+    image: upshift/nut-upsd
+    ports:
+      - "3493:3493/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/nuts:/app"
+    restart: always

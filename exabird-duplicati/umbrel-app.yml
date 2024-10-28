@@ -1,0 +1,5 @@
+name: duplicati
+description: Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/duplicati-icon.png
+developer: Umbrel Community
+support: No support URL provided

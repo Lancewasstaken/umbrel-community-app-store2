@@ -1,0 +1,8 @@
+services:
+  duplicati:
+    image: linuxserver/duplicati:latest
+    ports:
+      - "8200:8200/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/Duplicati:/config"
+    restart: unless-stopped

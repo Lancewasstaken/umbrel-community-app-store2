@@ -1,0 +1,8 @@
+services:
+  Emby:
+    image: linuxserver/emby:latest
+    ports:
+      - "8096:8096/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/Emby:/config"
+    restart: unless-stopped

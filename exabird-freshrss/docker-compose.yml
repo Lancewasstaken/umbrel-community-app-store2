@@ -1,0 +1,8 @@
+services:
+  freshrss:
+    image: linuxserver/freshrss:latest
+    ports:
+      - "80/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/freshrss:/config"
+    restart: unless-stopped

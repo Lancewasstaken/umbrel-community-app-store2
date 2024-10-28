@@ -1,0 +1,8 @@
+services:
+  davos:
+    image: linuxserver/davos:latest
+    ports:
+      - "8080/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/Davos:/config"
+    restart: unless-stopped

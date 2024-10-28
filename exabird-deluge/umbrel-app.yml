@@ -1,0 +1,5 @@
+name: deluge
+description: Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing: Full Encryption, WebUI, Plugin System, Much more...
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/deluge-icon.png
+developer: Umbrel Community
+support: No support URL provided

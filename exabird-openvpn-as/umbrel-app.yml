@@ -1,0 +1,5 @@
+name: openvpn-as
+description: OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/openvpn-as-icon.png
+developer: Umbrel Community
+support: No support URL provided

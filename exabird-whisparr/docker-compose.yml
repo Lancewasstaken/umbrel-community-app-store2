@@ -1,0 +1,8 @@
+services:
+  whisparr:
+    image: No image provided
+    ports:
+      - "No ports provided"
+    volumes:
+      - "/path/to/bind:/path/in/container"
+    restart: always

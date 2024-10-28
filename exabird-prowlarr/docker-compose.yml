@@ -1,0 +1,8 @@
+services:
+  prowlarr:
+    image: ghcr.io/linuxserver/prowlarr:develop
+    ports:
+      - "9696:9696/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/Prowlarr:/config"
+    restart: unless-stopped

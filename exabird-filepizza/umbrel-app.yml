@@ -1,0 +1,5 @@
+name: filepizza
+description: Peer-to-peer file transfers in your browser
+icon: https://raw.githubusercontent.com/kern/filepizza/master/src/static/images/wordmark.png
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

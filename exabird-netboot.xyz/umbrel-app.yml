@@ -1,0 +1,5 @@
+name: netboot.xyz
+description: netboot.xyz is a convenient place to boot into any type of operating system or utility disk without the need of having to go spend time retrieving the ISO just to run it
+icon: https://netboot.xyz/img/nbxyz-logo.svg
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

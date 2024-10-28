@@ -1,0 +1,8 @@
+services:
+  photoshow:
+    image: linuxserver/photoshow:latest
+    ports:
+      - "80/tcp"
+    volumes:
+      - "/portainer/Pictures:/Pictures"
+    restart: unless-stopped
